@@ -55,7 +55,7 @@ export default function Profile() {
               </div>
               <div className="col">
                 <Link to='https://twitter.com/ankurvatsa'>
-                  <i className='fab fa-twitter fa-2x grey-text text-darken-4 social_style'></i>
+                  <i className='fas fa-map-marker fa-2x grey-text text-darken-4 social_style'></i>
                 </Link>
               </div>
               <div className="col">
