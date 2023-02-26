@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function RBS() {
+export default function DRbs() {
   return (
     <div>
         <li>Fast-tracked through roles demanding technical & management capabilities and promoted from enterprise engineering role to include management role and further to oversee global delivery of Interest Rate Derivatives platform and program management for several Dodd-Frank regulatory & market initiatives, including hands on delivery as required. Designed distributed, complex, and globally deployed technology systems for banking & finance, trade lifecycle & pricing.</li>

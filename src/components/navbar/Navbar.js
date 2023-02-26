@@ -35,7 +35,12 @@ export default class Navbar extends Component {
                                         <i class='fas fa-graduation-cap'></i> Education
                                     </Link>
                                 </li>
-                            </ul>
+                                <li>
+                                    <Link to="%PUBLIC_URL%/ankurvatsa.pdf">
+                                        <i class='fa fa-download'></i> Download
+                                    </Link>
+                                </li>
+                           </ul>
                         </div>
                     </div>
                 </nav>
@@ -58,6 +63,11 @@ export default class Navbar extends Component {
                     <li>
                         <Link to='/educations'>
                             <i class='fas fa-graduation-cap'></i> Education
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="%PUBLIC_URL%/ankurvatsa.pdf">
+                            <i class='fa fa-download'></i> Download
                         </Link>
                     </li>
                 </ul>

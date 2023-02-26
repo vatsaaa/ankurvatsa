@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-export default function Nomura() {
+export default function DNomura() {
   return (
     <div>
         <li>Digital Transformation Leader, successfully delivered several cloud transformation projects, setup and leading “Innovation Center” (NICe) and introduced number of new digital business propellers on Nomura’s Startup Incubator - Voyager 1 & 2 e.g. automated PnL & risk sensitivities explain & adjustments postings, settlement instructions setup from unstructured data, automated review of NDA legal contracts.</li>

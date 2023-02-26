@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-export default function Encore() {
+export default function DEncore() {
   return (
     <div>
         <li align="justify">Owned ‘Technology Consolidation’ and ‘Core Services Automation’ strategies, resulting in savings of $700k in a year and enhanced user experience. Cost based analysis and consolidation of a heterogeneous technical delivery stack, sponsored & led integration of delivery management stack on to unified continuous delivery pipeline with "TFS/VSTS Online", thus enabled Continuous Integration and Continuous Delivery, traceability from requirements till code & defects. Conceptualized and architected automated tests execution engine to leverage VSTS Online (TFS) with CodedUI hosted in MTM repository.</li>

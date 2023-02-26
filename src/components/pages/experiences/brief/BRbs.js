@@ -1,8 +1,13 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { useNavigate } from 'react-router-dom';
 import ImgRBS from '../../../../images/rbs.jpg';
 
 export default function BRbs() {
+  const navigate = useNavigate();
+  
+  const rbsDetails = () => {
+    navigate("/rbs")
+  }
   return (
     <div className="row mt-top">
     <div className="col xl3 l4 m6 s12"> 
@@ -18,10 +23,8 @@ export default function BRbs() {
         </h6>
         <p align="justify">Fast-tracked through roles demanding technical & management capabilities and promoted from enterprise engineering role to include management role and further to oversee global delivery of Interest Rate Derivatives platform and program management for several Dodd-Frank regulatory & market initiatives. Designed distributed, complex, and globally deployed technology systems for banking & finance, trade lifecycle & pricing.</p>
         <p align="justify">As enterprise engineer & architect, crafted and executed a comprehensive SoA strategy & re-architected monolithic Interest Rate Derivatives trading & pricing platform into several standalone independently-releasable business services e.g. Clearing, Transaction Reporting, Brokerage, Credit Check, Market Data Independence. Created reference architectures & exemplars adopted by future enhancements resulting in quick time to market.</p>
-        <div align="right">
-          <Link to="/rbs">
-            <i class="fas fa-link fa-2x"></i>
-          </Link>
+        <div align="right" >
+          <i class="far fa-caret-square-right fa-2x fa-fw" onClick={ rbsDetails }></i>
         </div>
       </blockquote>
     </div>

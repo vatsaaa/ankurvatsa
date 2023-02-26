@@ -7,6 +7,11 @@ import Skills from "./components/pages/skills/Skills";
 import Experiences from "./components/pages/experiences/Experiences";
 import Educations from "./components/pages/educations/Educations";
 import Portfolios from "./components/pages/portfolios/Portfolios";
+
+import DNomura from "./components/pages/experiences/details/DNomura";
+import DEncore from "./components/pages/experiences/details/DEncore";
+import DRbs from "./components/pages/experiences/details/DRbs";
+
 import './App.css';
 
 function App() {
@@ -19,6 +24,9 @@ function App() {
           <Route path="/experiences" element={<Experiences/>} />
           <Route path="/educations" element={<Educations/>} />
           <Route path="/portfolios" element={<Portfolios/>} />
+          <Route path="/nomura" element={<DNomura/>} />
+          <Route path="/encore" element={<DEncore/>} />
+          <Route path="/rbs" element={<DRbs/>} />
         </Routes>
       </>
     </Router>

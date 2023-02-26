@@ -8,8 +8,8 @@ export default function Educations() {
           <h6>
             <strong>EDUCATION & CERTIFICATIONS</strong>
           </h6>
-          <table class='striped'>
-            <thead>
+          <table class='striped w-auto'>
+            <thead class="thead-dark">
               <tr>
                 <th>Certificate</th>
                 <th>Date</th>

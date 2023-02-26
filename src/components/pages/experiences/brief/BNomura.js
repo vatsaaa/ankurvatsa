@@ -1,8 +1,13 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { useNavigate } from 'react-router-dom';
 import ImgNomura from '../../../../images/nomura.jpg';
 
 export default function BNomura() {
+  const navigate = useNavigate();
+  
+  const nomuraDetails = () => {
+    navigate("/nomura")
+  }
   return (
     <div className="row mt-top employer-brief">
       <div className="col xl3 l4 m6 s12">
@@ -23,13 +28,10 @@ export default function BNomura() {
             </p>
           </div>
           <div align="right" class="employer-detail">
-            <Link to="/nomura">
-              {/* <i class="far fa-caret-square-right fa-2x" aria-hidden="true"></i> */}
-              <i class="fas fa-link fa-2x"></i>
-            </Link>
+            <i class="far fa-caret-square-right fa-2x fa-fw" onClick={ nomuraDetails }></i>
           </div>
         </blockquote>
+      </div>
     </div>
-  </div>
   );
 }
