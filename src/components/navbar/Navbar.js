@@ -36,8 +36,8 @@ export default class Navbar extends Component {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="%PUBLIC_URL%/ankurvatsa.pdf">
-                                        <i class='fa fa-download'></i> Download
+                                    <Link>
+                                    <i class='fa fa-download'></i> Download
                                     </Link>
                                 </li>
                            </ul>
@@ -66,8 +66,8 @@ export default class Navbar extends Component {
                         </Link>
                     </li>
                     <li>
-                        <Link to="%PUBLIC_URL%/ankurvatsa.pdf">
-                            <i class='fa fa-download'></i> Download
+                        <Link>
+                        <i class='fa fa-download'></i> Download
                         </Link>
                     </li>
                 </ul>

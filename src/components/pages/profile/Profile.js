@@ -54,7 +54,7 @@ export default function Profile() {
                 </Link>
               </div>
               <div className="col">
-                <Link to='https://twitter.com/ankurvatsa'>
+                <Link to='https://www.google.com/maps/place/London,+UK/'>
                   <i className='fas fa-map-marker fa-2x grey-text text-darken-4 social_style'></i>
                 </Link>
               </div>
