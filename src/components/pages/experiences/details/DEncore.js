@@ -1,28 +1,31 @@
 import React from 'react';
 import BEncoreCard from '../brief/BEncoreCard';
 import BEncoreText from '../brief/BEncoreText';
+import Navbar from '../../../navbar/Navbar';
 
 export default function DEncore() {
   return (
-  <div className="row">
-    <div className="col s12 m3">
-      <div>
-        <div className="card">
-          <BEncoreCard />
-          <BEncoreText />
-          <div className="card-reveal">
-            <span className="card-title grey-text text-darken-4">
-              Additional brief
-              <i className="material-icons right">close</i>
-            </span>
-            <p className='flex-container'>
-              <div className="row">
-                <p align="justify">Lore ipsum 1</p>
-                <p align="justify">Lore ipsum 2</p>
+    <section>
+      <Navbar />
+      <div className="row">
+        <div className="col s12 m3">
+          <div>
+            <div className="card">
+              <BEncoreCard />
+              <BEncoreText />
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
+                  Additional brief
+                  <i className="material-icons right">close</i>
+                </span>
+                <p className='flex-container'>
+                  <div className="row">
+                    <p align="justify">Lore ipsum 1</p>
+                    <p align="justify">Lore ipsum 2</p>
+                  </div>
+                </p>
               </div>
-            </p>
-          </div>
-        </div>
+            </div>
           </div>
         </div>
         <div className="col s12 m9">
@@ -41,5 +44,6 @@ export default function DEncore() {
           </div>
         </div>
       </div>
+    </section>
   );
 }

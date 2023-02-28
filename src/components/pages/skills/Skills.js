@@ -1,13 +1,16 @@
 import React from 'react';
+// import Navbar from '../../navbar/Navbar';
 
 export default function Skills() {
   return (
+    <section>
+    {/* <Navbar /> */}
     <div>
         <div className="card">
             <div className="card-content">
-                <h6>
+                <h5>
                     <strong>SKILLS</strong>
-                </h6>
+                </h5>
                 <div className="row mt-top">
                     <div className="col s6">
                         <h6><strong>Server & Presentation</strong></h6>
@@ -41,5 +44,6 @@ export default function Skills() {
             </div>
         </div>
     </div>
+    </section>
   );
 }

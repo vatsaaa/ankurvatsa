@@ -1,9 +1,12 @@
 import React from 'react';
 import BNomuraText from '../brief/BNomuraText';
 import BNomuraCard from '../brief/BNomuraCard';
+import Navbar from '../../../navbar/Navbar';
 
 export default function DNomura() {
   return (
+    <section>
+      <Navbar />
       <div className="row">
         <div className="col s12 m3">
           <div>
@@ -40,6 +43,7 @@ export default function DNomura() {
           </div>
         </div>
       </div>
+    </section>
   );
 }
 
