@@ -22,51 +22,26 @@ export default function Educations() {
                 <td>Bachelor of Technology</td>
                 <td>Apr 1996 - Mar 2000</td>
                 <td>Faculty of Engineering & Technology, New Delhi, Jamia Millia Islamia</td>
-                {/* <td>
-                  <Link to='/details' class='btn blue lighten-2'>
-                    View
-                  </Link>
-                </td> */}
               </tr>
               <tr>
                 <td>Cyber Law - Post Graduate Diploma</td>
                 <td>Apr 2007 - Mar 2008</td>
                 <td>Indian Law Institute, New Delhi</td>
-                {/* <td>
-                  <Link to='/details' class='btn blue lighten-2'>
-                    View
-                  </Link>
-                </td> */}
               </tr>
               <tr>
                 <td>Certificate in Intellectual Property Rights</td>
                 <td>Jul 2007 - Oct 2007</td>
                 <td>Indian Law Institute, New Delhi</td>
-                {/* <td>
-                  <Link to='/details' class='btn blue lighten-2'>
-                    View
-                  </Link>
-                </td> */}
               </tr>
               <tr>
                 <td>AWS Certified Solutions Architect - Professional, Credential #HET465SJDJFE1H38</td>
                 <td>Feb 2021 - Feb 2024</td>
                 <td>Amazon Web Services</td>
-                {/* <td>
-                  <Link to='/details' class='btn blue lighten-2'>
-                    View
-                  </Link>
-                </td> */}
               </tr>
               <tr>
                 <td>ITIL Foundation, Simplilearn, Credential #213248</td>
                 <td>Feb 2021 - Feb 2024</td>
                 <td>Simplilearn</td>
-                {/* <td>
-                  <Link to='/details' class='btn blue lighten-2'>
-                    View
-                  </Link>
-                </td> */}
               </tr>              
             </tbody>
           </table>
