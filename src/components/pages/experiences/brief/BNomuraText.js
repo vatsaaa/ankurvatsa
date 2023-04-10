@@ -8,7 +8,7 @@ export default function BNomuraText() {
       </h6>
       <div>
         <p align="justify">
-          Own digitalization strategy for leveraging emerging technologies. Responsible for identifying opportunities to leverage emerging technologies through internal & external relationships, and to evaluate to acquire, develop, productize & adopt new age AI/ML, cognitive and conversational platforms into customer journeys & business processes to improve customer experience, enable business and improve operational efficiency.
+          Ankur leads ~260 engineers and is key contributor to strategic change portfolio, technology architecture, DevOps/SRE, and digitalisation strategy. He is accountable for identifying cost opimization and revenue enhancement opportunities and leverage emerging technologies for design, development and operationalisation of new age AI/ML, cognitive and conversational platforms and products into customer journeys & business processes to improve customer experience and operational efficiency.
         </p>
       </div>
     </div>

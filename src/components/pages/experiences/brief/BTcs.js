@@ -3,19 +3,22 @@ import ImgTcs from '../../../../images/tcs.jpg';
 
 export default function BTcs() {
   return (
-    <div className="row mt-top">
-    <div className="col xl3 l4 m6 s12"> 
-      <p className="teal year_exp white-text">
-          <strong>Feb 2001 - Mar 2004 (3.2 yrs)</strong>
-      </p>             
-      <br/><br/>
-      <img className='activator' src={ImgTcs} alt="Tata Consultancy Services" width="205" height="110"/>            </div>
+  <div className="row mt-top">
+    <div className="col xl3 l4 m6 s12">
+      <div align='center'>
+        <p className="teal year_exp white-text">
+          <strong>Feb'01 - Mar'04 (3.2 yrs)</strong>
+        </p>             
+        <br/><br/>
+        <img className='activator' src={ImgTcs} alt="Tata Consultancy Services" width="205" height="110"/>
+      </div>
+    </div>
     <div className="col xl9 l8 m6 s12">
       <blockquote className="no-pad">
         <h6 className="no-pad mt-bottom">
-          <strong>Lead Technology</strong>
+          <strong>Systems Engineer</strong>
         </h6>
-        <p align="justify">Led a team of 9 engineers on design and development of a simplified version of GSM SMLC that enables location service messaging between BSC and LCS Position Control Function for estimating mobile station locations, E5-E12 gateway to abstract SS7 functioning thus providing a single interface layer to the Position Determining Entity. Network Optimization (Netopts) application that collects network signaling data over GSM A-bis interface and processes the data collected using Location Server to generate network optimization call data records (CDR). Position Control Function talks to the network elements through the gateway which physically interfaces with the Mobile Switching Centers (E12 interface) and Mobile Positioning Center (E5 interface). </p>
+        <p align="justify">Ankur was picked from campus as an individual contributor to work in BFSI domain on Network Custodial and Clearing Services product. He worked on Corporate Actions and developed several OLTP services & batches for SWIFT based communication engine, safe custody account entitlement calculations with tax eligibility & reconciliation. In the capacity of technology change manager he developed & evaluated tools to increase efficiency in day-to-day work & increase reliability of results and piloted such tools into various projects, measured RoI & certified usage of such tools as best practice. He supported sales-teams in responding to queries, analyzing gaps in product functionalities, replying to to RFI/Ps for system workflow information, performance statistics & coverage of requirements and more.</p>
       </blockquote>
     </div>
   </div>

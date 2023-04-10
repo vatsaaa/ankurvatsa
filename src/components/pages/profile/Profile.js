@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import ImgProfile from '../../../images/person1.jpg';
+import ImgProfile from '../../../images/Ankur.jpg';
 
 const ButtonMailto = ({ mailto, label }) => {
   return (
@@ -64,8 +64,8 @@ export default function Profile() {
             </div>
             <div className="row"><hr/></div>
             <div className="row">
-              <p align="justify">Goal & detail-oriented, hands on professional with 20 years in developing large, complex and globally distributed systems for investment banking and telecom domains with C/C++, Pyhton, Java, Sybase, SQL Server, Node.js, NoSQL, Neo4j, AWS Cloud, High Performance Computing.</p>
-              <p align="justify">Efficiently navigates conflicting priorities, strong ability to follow-through on commitments, excellent business relations & stakeholder management, fosters teamwork and delivers productivity through process improvements built on culture of continuous improvement.</p>
+              <p align="justify">Ankur is goal & detail-oriented, hands on professional with 22 years in developing large, complex and globally distributed systems for investment banking and telecom domains with C/C++, Pyhton, Java, Sybase, SQL Server, Node.js, NoSQL, Neo4j, AWS Cloud, High Performance Computing.</p>
+              <p align="justify">He efficiently navigates conflicting priorities, demonstrates strong ability to follow-through on commitments, builds excellent business relations & stakeholder management, fosters teamwork and delivers productivity through process improvements built on culture of continuous improvement.</p>
             </div>
           </p>
         </div>

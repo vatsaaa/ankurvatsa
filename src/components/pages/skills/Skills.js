@@ -14,7 +14,7 @@ export default function Skills() {
                 <div className="row mt-top">
                     <div className="col s6">
                         <h6><strong>Server & Presentation</strong></h6>
-                        <p>Python, C++, Java/JEE, JavaScript, Node.js, React.js</p>
+                        <p>Python, C++, Java/JEE, JavaScript, Node.js, React.js & Redux</p>
                     </div>
                     <div className="col s6">
                         <h6><strong>Middleware Engineering</strong></h6>
@@ -28,7 +28,7 @@ export default function Skills() {
                     </div>
                     <div className="col s6">
                         <h6><strong>Distributed Systems & Emerging Technologies</strong></h6>
-                        <p align="justify">AWS Cloud, RESTful & Micro-services, Solidity, Blockchains, Web3 (Hardhat, Truffle, OpenZeppelin), Metaverse</p>
+                        <p align="justify">AWS Cloud, RESTful & Micro-services, Solidity, Blockchains, Web3 (Hardhat, Truffle, OpenZeppelin), Metaverse, LLM Applications with ChatGPT and OpenAI</p>
                     </div>
                 </div>
                 <div className="row mt-top">
